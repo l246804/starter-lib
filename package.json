@@ -38,7 +38,8 @@
     "lint": "eslint . --cache --cache-location ./node_modules/.cache/.eslint-cache",
     "lint:fix": "pnpm run lint --fix",
     "release": "bumpp && pnpm publish",
-    "prepublishOnly": "pnpm run build"
+    "prepublishOnly": "pnpm run build",
+    "prepare": "simple-git-hooks"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.16.2",
