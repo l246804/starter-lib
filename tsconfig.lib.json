@@ -4,7 +4,9 @@
     "@vue/tsconfig/tsconfig.lib.json"
   ],
   "compilerOptions": {
-    "tsBuildInfoFile": "./node_modules/.cache/tsconfig.lib.tsbuildinfo"
+    "tsBuildInfoFile": "./node_modules/.cache/tsconfig.lib.tsbuildinfo",
+
+    "types": ["tsdown/client"]
   },
   "include": ["src"]
 }
