@@ -2,7 +2,7 @@
   "name": "starter-lib",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.24.0",
+  "packageManager": "pnpm@10.29.1",
   "description": "A starter for creating a package.",
   "author": "leihaohao <https://github.com/l246804>",
   "license": "MIT",
@@ -42,22 +42,22 @@
     "prepare": "simple-git-hooks"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.2.0",
-    "@sxzz/prettier-config": "^2.2.6",
-    "@tsconfig/node24": "^24.0.0",
-    "@types/node": "^24.10.1",
+    "@antfu/eslint-config": "^6.7.3",
+    "@sxzz/prettier-config": "^2.3.1",
+    "@tsconfig/node24": "^24.0.4",
+    "@types/node": "^24.10.12",
     "@vue/tsconfig": "^0.8.1",
-    "bumpp": "^10.3.2",
-    "eslint": "^9.39.1",
-    "eslint-plugin-format": "^1.0.2",
-    "happy-dom": "^20.0.11",
+    "bumpp": "^10.4.1",
+    "eslint": "^9.39.2",
+    "eslint-plugin-format": "^1.4.0",
+    "happy-dom": "^20.5.0",
     "lint-staged": "^16.2.7",
-    "prettier": "^3.7.3",
+    "prettier": "^3.8.1",
     "simple-git-hooks": "^2.13.1",
-    "tsdown": "^0.16.8",
+    "tsdown": "^0.20.3",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.14"
+    "vitest": "^4.0.18"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
