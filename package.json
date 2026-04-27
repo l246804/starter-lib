@@ -2,7 +2,7 @@
   "name": "starter-lib",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@10.33.2",
   "description": "A starter for creating a package.",
   "author": "leihaohao <https://github.com/l246804>",
   "license": "MIT",
