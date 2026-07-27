@@ -56,7 +56,7 @@
     "simple-git-hooks": "^2.13.1",
     "tsdown": "^0.22.0",
     "tsx": "^4.21.0",
-    "typescript": "^6.0.2",
+    "typescript": "^7.0.0",
     "vitest": "^4.0.14"
   },
   "simple-git-hooks": {
